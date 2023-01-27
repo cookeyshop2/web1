@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context>
+<!-- 	<Resource -->
+<!-- 		name="jdbc/jspdb" -->
+<!-- 		auth="Container" -->
+<!-- 		type="javax.sql.DataSource" -->
+<!-- 		driverClassName="com.mysql.jdbc.Driver" -->
+<!-- 		url="jdbc:mysql://localhost:3307/jspdb?useSSL=false&amp;serverTimezone=Asia/Seoul" -->
+<!-- 		username="root" -->
+<!-- 		password="1234" -->
+<!-- 	/> -->
+	
+	<Resource
+		name="jdbc/jspdb"
+		auth="Container"
+		type="javax.sql.DataSource"
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/jspdb?useSSL=false&amp;serverTimezone=Asia/Seoul&amp;allowPublicKeyRetrieval=true"
+		username="root"
+		password="1234"
+	/>
+</context>
